@@ -12,7 +12,7 @@ tags:
 description: "My solution to FreeCodecamp's 'Factorialize a Number Challenge', on the Basic Algorithm scripting section. For this one, I used the Array.from and reduce methods"
 ---
 
-My high school math teacher said factorials was something every one should know and that it would come handy one day. Even though I've never used it in real life, I was excited to at least know what it was when I saw the challenge. The factorial of a number, lets say 'n', is basically the product of all positive integers less than or equal to n. For example: 5! = 1 _ 2 _ 3 _ 4 _ 5 = 120
+My high school math teacher said factorials was something every one should know and that it would come handy one day. Even though I've never used it in real life, I was excited to at least know what it was when I saw the challenge. The factorial of a number, lets say 'n', is basically the product of all positive integers less than or equal to n. For example: 5! = 1 x 2 x 3 x 4 x 5 = 120
 
 In order to complete the challenge, I decided that the first thing my function would do was to create an array with the numbers from 1 to whatever the input was. Originally, I achieved this using a for loop which looked like this:
 
