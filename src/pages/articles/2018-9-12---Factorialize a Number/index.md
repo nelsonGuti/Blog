@@ -1,6 +1,6 @@
 ---
 title: Factorialize a Number using Javascript
-date: '2018-12-09T22:40:32.169Z'
+date: '2019-01-09T22:40:32.169Z'
 layout: post
 draft: true
 path: '/posts/Factorializa-a-Number/'
