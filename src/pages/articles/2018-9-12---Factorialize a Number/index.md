@@ -2,7 +2,7 @@
 title: Factorialize a Number using Javascript
 date: '2018-12-09T22:40:32.169Z'
 layout: post
-draft: false
+draft: true
 path: '/posts/Factorializa-a-Number/'
 category: 'Javascript'
 tags:
