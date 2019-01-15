@@ -1,6 +1,6 @@
 ---
 title: Reverse a String using Javascript
-date: "2019-01-25T22:40:32.169Z"
+date: "2019-01-14T22:40:32.169Z"
 layout: post
 draft: false
 path: "/posts/reverse-a*string/"
