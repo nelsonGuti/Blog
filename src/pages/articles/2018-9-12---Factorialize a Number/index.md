@@ -2,7 +2,7 @@
 title: Factorialize a Number using Javascript
 date: '2019-01-09T22:40:32.169Z'
 layout: post
-draft: true
+draft: false
 path: '/posts/Factorializa-a-Number/'
 category: 'Javascript'
 tags:
@@ -70,7 +70,7 @@ function factorialize(num) {
 factorialize(0) /* 1 */
 ```
 
-All done. Nonetheless, there is still one little upgrade that I made to this one. Instead of using a for loop to fill the arr array, I used the Array.from method, which is incredibly handy. I heard about this one on the Syntax.fm podcast with Wes Bos and Scott Tolinski (which I highly recommend!).
+All done. Nonetheless, there is still one little upgrade that I made to this one. Instead of using a for loop to fill the arr array, I used the Array.from method, which is incredibly handy. I heard about this one on the Syntax.fm podcast with Wes Bos and Scott Tolinski (which I highly recommend!). This method creates a shallow copy of an array like or iterable object. More on this on the next blog post. 
 
 My final code looked like this:
 
