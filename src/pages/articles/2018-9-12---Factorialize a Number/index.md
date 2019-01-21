@@ -27,7 +27,7 @@ function factorialize(num) {
   console.log(arr) /* [1, 2, 3, 4, 5, 6, 7, 8] */
 }
 
-factorialize('8')
+factorialize(8)
 ```
 
 Having all the numbers in an array, I knew I could use the reduce method. As it is defined in the MDN documentation page, "the reduce() method executes a reducer function (that you provide) on each member of the array resulting in a single output value." This is incredibly handy because it basically allows you to take a set of numbers, do something with them, and output one single accumulated value. I had used the reduce method for a sum of all the elements in an array in other projects, so I just went ahead and used it similarly but in this case, to multiply all the elements in the array and return the product. At this point my function looked like this:
