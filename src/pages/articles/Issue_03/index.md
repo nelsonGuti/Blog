@@ -61,17 +61,17 @@ console.log(Array.from({ length: 5 }, (item, index) => index)); /* [0, 1, 2, 3, 
 ```
 This is possible because the Array.from() takes an array-like object or iterable object as a first parameter but also an optional second parameter which is a map function. 
 
+In this case, the iterable object is of length 5, and the map function returns the current index of each item, filling up each of the indexes of the new array created and generating a sequence of numbers.
+
 Without the map function, the array would look like this:
 
 ```js
 console.log(Array.from({ length: 5 })); /* [undefined, undefined, undefined, undefined, undefined] */
 ```
 
-In this case, the iterable object is of length 5, and the map function returns the current index of each item, filling up each of the indexes of the new array created generating a sequence of numbers.
+Now you can see the power of the Array.from(). You can create arrays of whatever length you want and with the map function, you can fill it up with whatever sequences you want.
 
-Now you can see the power of the Array.from(). You can do create an array of certain lenght and with the map function, you can fill it up with whatever sequence you want.
-
-Hope you found this on useful! 
+Hope you found this one useful! 
 
 
 
