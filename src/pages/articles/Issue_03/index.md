@@ -12,11 +12,11 @@ tags:
 description: "Array.from() is an awesome method introduced with ES6. This post includes practical examples of how I use it."
 ---
 
-Array.from() is  great method to have in your bag of tricks. According to the MDN definition, it is a method that "creates a new shallow-copied instance from an array like or iterable object". 
+Array.from() is  great method to have in your bag of tricks. According to the MDN definition, it is a method that "creates a new shallow-copied instance from an array like or iterable object". I will share with you some cool things that can be done with this method.
 
 ### Examples
 
-If you have an HTML Collection or Nodelist, which are array-like objects, you don't have access to the methods from the Array.prototype. In order to be able to access them, you can use Array.from() method an have these Collections or Nodelists in array form.
+If you have an HTML Collection or Nodelist, which are array-like objects, you cannot treat them as an array per se and hence, there is no access to the Array.prototype handy methods. In order to be able to access them, you can use Array.from() method to turn these  Collections or Nodelists into array form.
 
 ```html
  <ul>
@@ -61,16 +61,17 @@ console.log(Array.from({ length: 5 }, (item, index) => index)); /* [0, 1, 2, 3, 
 ```
 This is possible because the Array.from() takes an array-like object or iterable object as a first parameter but also an optional second parameter which is a map function. 
 
-In this case, the iterable object is of length 5, and the map function returns the current index of each item, generating a sequence of numbers.
-
-Without the map function, the method would still return an array from the object, but it would just have undefined set to each of the 5 values:
+Without the map function, the array would look like this:
 
 ```js
 console.log(Array.from({ length: 5 })); /* [undefined, undefined, undefined, undefined, undefined] */
 ```
 
+In this case, the iterable object is of length 5, and the map function returns the current index of each item, filling up each of the indexes of the new array created generating a sequence of numbers.
 
-Hope you found this on useful!
+Now you can see the power of the Array.from(). You can do create an array of certain lenght and with the map function, you can fill it up with whatever sequence you want.
+
+Hope you found this on useful! 
 
 
 
