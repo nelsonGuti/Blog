@@ -2,7 +2,7 @@
 title: Awesome things that can be done with Array.from()
 date: '2019-01-27T08:40:32.169Z'
 layout: post
-draft: true
+draft: false
 path: '/posts/array_from/'
 category: 'Javascript'
 tags:
