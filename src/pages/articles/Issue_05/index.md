@@ -24,7 +24,7 @@ I've created a github repo where you can find the starter files, which is just a
 
 ### The MarkUp
 
-The HTML for this one is very simple, consisting of one div which will be the hamburger menu button which will toggle the nav back and forth.
+The HTML for this one is very simple, consisting of one div which will be the hamburger menu button and a nav tag which will contain our navigation bar.
 
 ```html
 <body>
