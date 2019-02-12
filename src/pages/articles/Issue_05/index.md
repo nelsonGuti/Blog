@@ -14,7 +14,9 @@ description: "Build a menu from scratch using Vanilla JS and CSS transitions "
 
 In this article you will learn how to make an animated hamburger menu using CSS transitions and some vanilla Javascript. We will be building this:
 
-![](menu.gif)
+<img src="menu.gif"
+     alt="Menu Animation"
+     style="width:100%" />
 
 ## The Setup
 
