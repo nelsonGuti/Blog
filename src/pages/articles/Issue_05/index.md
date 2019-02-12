@@ -1,6 +1,6 @@
 ---
 title: "Build an Animated Hamburger Menu from Scratch"
-date: "2019-01-12T10:40:32.169Z"
+date: "2019-11-04T10:40:32.169Z"
 layout: post
 draft: false
 path: "/posts/build_a_hamburger_menu/"
@@ -24,7 +24,7 @@ I've created a github repo where you can find the starter files, which is just a
 
 ### The MarkUp
 
-The HTML for this one is very simple, consisting of one div which will be the hamburger menu button and a nav tag which will contain our navigation bar.
+The HTML for this one is very simple, consisting of one div which will be the hamburger menu button and a nav tag which will contain or navigation bar.
 
 ```html
 <body>
@@ -49,6 +49,16 @@ The HTML for this one is very simple, consisting of one div which will be the ha
 We will start by creating the hamburger menu. Each div with the of class "menu-nav-item" will be what makes up our hamburger menu button. In order to create, we will give it the following styles:
 
 ```css
+.menu-button {
+  top: 35px;
+  left: 35px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  position: fixed;
+}
+
 .menu-button-item {
   width: 100%;
   height: 4px;
@@ -61,3 +71,4 @@ We will start by creating the hamburger menu. Each div with the of class "menu-n
   margin-top: 5px;
 }
 ```
+
