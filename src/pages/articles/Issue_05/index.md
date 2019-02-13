@@ -2,7 +2,7 @@
 title: "Build an Animated Hamburger Menu from Scratch"
 date: "2019-02-13T10:40:32.169Z"
 layout: post
-draft: false
+draft: true
 path: "/posts/build_a_hamburger_menu/"
 category: "CSS"
 tags:
