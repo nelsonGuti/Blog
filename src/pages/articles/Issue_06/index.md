@@ -57,7 +57,7 @@ console.log(data.every(i => i.level === 'senior')) // false
 
 ### Combining it with other methods
 
-If you want to know if all females are seniors, you can combine the .every() method with the .filter() method. Lets say you needed to know whether if all females have a senior level. You can first filter out the objects that correspond to a female and then use the .every() method:
+If for example, you want to know if all females have "senior" level, you can combine the .every() method with the .filter() method. You can first filter out the objects that correspond to a female and then use the .every() method:
 
 ```js
 console.log(data.filter(i => i.gender === 'F').every(i => i.level === 'senior')) // true
@@ -65,7 +65,7 @@ console.log(data.filter(i => i.gender === 'F').every(i => i.level === 'senior'))
 
 ### Fun fact
 
-If the method is used on an empty array, it will always return true regardless of the condition given.
+If the .every() method is used on an empty array, it will always return true regardless of the condition given.
 
 ```js
 console.log([].every(i => i === 'hello')) // true
