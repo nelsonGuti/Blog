@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Post from '../components/Post'
 import Sidebar from '../components/Sidebar'
-import favicon from './nelson.png'
+import favicon from './favicon.png'
 
 class IndexRoute extends React.Component {
   render() {
