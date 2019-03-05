@@ -10,7 +10,7 @@ tags:
 description: 'While studying for a Javascript interview, a ran into a challenge that helped me understand closures.'
 ---
 
-While prepping for Javascript interviews a while ago, I came across an interesting challenge:
+While preparing for Javascript interviews a while ago, I came across an interesting challenge:
 
 _Write a function that takes in a string (person's name) and it is able to output one letter at a time using closures._
 
