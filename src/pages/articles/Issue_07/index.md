@@ -22,7 +22,7 @@ The best definition I've encountered comes from Kyle Simpson's book, [You Dont' 
 
 > Closure is when a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.
 
-i like this definition becuase it sums it up: closures enable us to **remember** and **access** the lexical scope of the parent function.
+I like this definition becuase it sums it up perfectly: closures enable us to **remember** and **access** the lexical scope of the parent function.
 
 Lets take a look at the function I wrote to complete the interview prep challenge:
 
@@ -47,7 +47,7 @@ console.log(nelson()) // "n"
 
 Lets analyze the code. The _outer_ function contains three things:
 
-1. A variable declaration ( _index_ ) initialized to 0.
+1. A variable ( _index_ ) initialized to 0.
 2. The parameter being passed: _str_
 3. A `return` statement which gives back a new function called _inner_ . This function (when invoked) simply logs the letter from the _str_ variable on position _index_. The ++ after the _index_ variable will add 1 to _index_ 's value every time the function is invoked.
 
@@ -55,7 +55,7 @@ A couple of lines below, outside of the function declaration, the _outer_ functi
 
 So on the first invocation of the _nelson_ function, _index_ will be equal to 0 so the letter "n" is logged. On the second invocation, _index_ is equal to 1 and the function is able to log "e" . Thanks to closures, the pattern continues successfully.
 
-Having the closures ready, I added an `if` statement that checks when there are no more letters to display and at that point, display a little message using the other variables remembered by the inner function. Also, I added a small timer that displayed one letter per second.
+Having the closures ready, I added an `if` statement that checks when there are no more letters to display and at that point, display a little message using the variables remembered by the inner function. Also, I added a small timer that displayed one letter per second.
 
 ```js
 function outer(str) {
