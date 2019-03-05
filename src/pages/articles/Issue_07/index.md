@@ -18,11 +18,11 @@ Even though I knew what closures were, I didn't fully _understand_ them. After w
 
 ## First of all, what are closures?
 
-The best definition I've encountered comes from Kyle Simpson's book, [You Dont' Know JS Book](https://github.com/getify/You-Dont-Know-JS) (which is an amazing resource to learn JS):
+The best definition I've encountered comes from Kyle Simpson's book, [You Don't Know JS Book](https://github.com/getify/You-Dont-Know-JS) (which is an amazing resource to learn JS):
 
 > Closure is when a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.
 
-I like this definition becuase it sums it up perfectly: closures enable us to **remember** and **access** the lexical scope of the parent function.
+I like this definition because it sums it up perfectly: closures enable us to **remember** and **access** the lexical scope of the parent function.
 
 Lets take a look at the function I wrote to complete the interview prep challenge:
 
