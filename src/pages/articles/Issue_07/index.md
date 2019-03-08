@@ -35,7 +35,7 @@ function outer(str) {
   }
 }
 
-const nelson = outer('nelson')
+const nelson = outer('nelson');
 
 console.log(nelson()) // "n"
 console.log(nelson()) // "e"
