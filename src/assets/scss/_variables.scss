@@ -6,7 +6,9 @@
 
 // $color-base: #fff;
 $color-base: #222;
-$color-primary: #f79e02;
+// $color-primary: #f79e02;
+$color-primary: #0e9e32;
+
 // $color-secondary: #5d93ff;
 // $color-secondary: rgb(105, 223, 223);
 $color-secondary: #026670;
@@ -18,7 +20,8 @@ $color-gray-border: lighten($color-base, 77%);
 $color-gray-bg: lighten($color-base, 79%);
 
 // Typographic
-$typographic-font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$typographic-font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial',
+  sans-serif;
 
 $typographic-root-font-size: 100;
 $typographic-base-font-size: 16px;
@@ -30,7 +33,9 @@ $typographic-base-font-color: $color-base;
 $typographic-link-p-font-color: $color-primary;
 $typographic-link-s-font-color: $color-secondary;
 
-$typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
+$typographic-leading: round(
+  16 * ($typographic-root-font-size / 100) * $typographic-base-line-height
+);
 
 // Layout
 $layout-post-single-max-width: 945px;
