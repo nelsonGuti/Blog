@@ -4,7 +4,7 @@ layout: page
 path: "/about"
 ---
 
-Hi! Thanks for stopping by my blog. My name is Nelson Gutiérrez. I am a self-taught front end developer based in Costa Rica. In my journey, I have learned tons reading coding blogs (and continue to do so), which is why I decided to start this blog. 
+Hi! Thanks for stopping by my blog. My name is Nelson Gutiérrez. I am a front end developer based in Costa Rica. In my journey, I have learned tons reading coding blogs (and continue to do so), which is why I decided to start this blog. 
 
 ![My famly hiking in CR!](./family.jpeg)
 
