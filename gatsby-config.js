@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     url: 'https://nelsongutierrez.site',
     title: 'Blog by Nelson Gutiérrez',
-    subtitle: 'Hi! I am a self taught Javascript and Front End Developer. I write about everything I learn regarding Javascript, CSS and HTML',
+    subtitle: 'Hi! I am a Javascript and Front End Developer. I write about everything I learn regarding Javascript, CSS and HTML',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
