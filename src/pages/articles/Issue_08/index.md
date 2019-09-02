@@ -1,6 +1,6 @@
 ---
 title: 'ES10 Object.fromEntries '
-date: '2019-05-26T10:40:32.169Z'
+date: '2019-09-01T10:40:32.169Z'
 layout: post
 draft: false
 path: '/posts/Object_fromEntries/'
