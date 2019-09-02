@@ -61,7 +61,7 @@ const familyMembersArray = [
 ]
 ```
 
-If we had to filter all the female members in the family, and return only the family member's name and role we would simply do this:
+If we had to filter all the female members in the family we would simply do this:
 
 ```js
 const females = familyMembersArray.filter(i => i.gender === 'F')
@@ -125,7 +125,7 @@ const familyMembersObject = {
 }
 ```
 
-If we needed to again return only the objects of the family members that are females and their role, how could we do it?
+If we needed to again return only the objects of the family members that are females how could we do it?
 
 ### Object.fromEntries to the rescue
 
@@ -199,13 +199,13 @@ console.log(Object.fromEntries(females))
 } */
 ```
 
-In other words, Object.fromEntries is the awaited method we needed to convert back to the object notation after having transformed an object into an array with Object.Entries.
+In other words, Object.fromEntries is the awaited method we needed to convert back our data to the object notation after having transformed an object into an array with Object.Entries.
 
 ### Intermediate transformations
 
 We can also modify data to a specific form with Object.fromEntries. Consider this example with the same data:
 
-Lets say we need to now return only the name and role of the family member. We could do it like this:
+Lets say we need to now return an object where the keys are the family member´s name and the value is their role in the family. We could do it like this:
 
 ```js
 const females = Object.entries(familyMembersObject)
